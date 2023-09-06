@@ -20,7 +20,8 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     background: linear-gradient(#152032, #507382);
-    padding: 5.5rem;
+    padding: clamp(20px, 5vw, 50px) 10px 10px;
+   /* padding: 5.5rem; */
 }
 
 section {
